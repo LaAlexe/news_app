@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 320px;
+    height: 500px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.container h1 {
+    color: #fff;
+}
+.loginForm input {
+    padding: 10px 20px;
+    border-radius: 15px;
+    outline: inherit;
+    border: 1px solid #333;
+}
+.form-submit {
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    outline: inherit;
+    border: 1px solid #333;
+    
+}
+.form-submit:hover {
+    cursor: pointer;
+    background: #ccc;
+    color: #fff;
+}
+/*
+.form-submit {
+    display: none;
+}
+*/
+.menu {
+    display: flex;
+    background: #333;
+    justify-content: space-between;
+    padding: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.all__news {
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.popup-close {
+    color: crimson;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+/*
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: crimson;
+    border: 0;
+    padding: 6px 10px;
+    outline-style: none;
+    cursor: pointer;
+}
+*/
+
+.popup-wrapper {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup {
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #fff;
+    position: relative;
+}
+.popup a {
+    background-color: crimson;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 10px;
+}
+.popup-form input, taxtarea {
+    margin: 20px 0;
+}
+li {
+    list-style-type: none;
+}
+.who__user {
+    color: #fff;
+}
+
+.addForm input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    background: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+.save {
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    background: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+    display: none;
+    margin: 0 auto;
+}
+
+.addForm textarea {
+    margin-top: 10px;
+}
+
+.news {
+    width: 500px;
+}
+
+li {
+    border: 1px solid #333;
+    border-radius: 15px;
+    width: 100%;
+    /* max-width: 960px; */
+    text-align: center;
+    margin-top: 10px;
+}
+.news textarea {
+    border: none;
+    background: inherit;
+    resize: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+    width: 314px;
+    height: 150px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_block {
+    display: none;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 18px;
+    color: crimson;
+    cursor: pointer;
+}
